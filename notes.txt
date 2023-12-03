@@ -1,0 +1,8 @@
+
+php artisan schedule:work - za pokretanje job-a, koji se izvrsava svake minute i ubacuje ili azurira vrijednosti koje nisu mijenjane od strane korisnika.
+
+rute za zadatak:
+/currencies - izlistava sve valute
+/currencies/top - izlistava prvih 10 valuta
+
+
