@@ -17,7 +17,7 @@
         </div>
 
         <input type="text" name="new_price_{{ $currency->id }}" id="new_price_{{ $currency->id }}" placeholder="New Price">
-        <button onclick="updatePrice('{{ $currency->id }}', '{{ route('update.price', ['id' => $currency->id]) }}')">Update Price</button>
+        <button onclick="updatePrice('{{ $currency->id }}', '{{ route('currencyUpdate', ['id' => $currency->id]) }}')">Update Price</button>
     </div>
 @endforeach
 

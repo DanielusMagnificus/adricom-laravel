@@ -25,7 +25,7 @@ Route::prefix('/currencies')->group(function() {
 
     Route::patch('/update/{id}', [
         CurrencyController::class, 'update'
-    ])->name('update.price');
+    ])->name('currencyUpdate');
 });
 
 
